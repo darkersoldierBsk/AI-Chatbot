@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Is anyone there?", "Howdy"],
+      "responses": ["Hello! Welcome to our store.", "Hi there! How can I help you today?", "Good to see you! What can I do for you?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you", "Catch you later", "Take care", "I'm leaving now", "Cya"],
+      "responses": ["Goodbye! Have a great day!", "See you next time!", "Looking forward to your visit again."],
+      "context_set": ""
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": ["Do you sell [product]?", "What colors are available for this item?", "Does this come in a larger size?", "Can you tell me more about this product?"],
+      "responses": ["Yes, we have this product in various options. Let me provide more details.", "This item is available in multiple colors and sizes. Check the product page for options."],
+      "context_set": ""
+    },
+    {
+      "tag": "stock_inquiry",
+      "patterns": ["Is this product in stock?", "When will this be restocked?", "Can I pre-order?", "Do you have more units of this item?"],
+      "responses": ["This product will be restocked soon. Please check back later.", "Currently out of stock, but we’re working to restock it ASAP."],
+      "context_set": ""
+    },
+    {
+      "tag": "shipping_status",
+      "patterns": ["Has my order been shipped?", "What is the shipping update?", "When will my package arrive?", "Is my shipment on the way?"],
+      "responses": ["Your order is on the way! You’ll receive a tracking link shortly.", "We’re processing your order and will notify you once it’s shipped."],
+      "context_set": ""
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": ["How do I track my package?", "Where is my shipment?", "Track my order", "What’s the status of my delivery?"],
+      "responses": ["You can track your order with the link we sent to your email.", "Please provide your order number, and we’ll assist with tracking."],
+      "context_set": ""
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["What is your return policy?", "Can I return a product?", "How do returns work?", "Is this product refundable?"],
+      "responses": ["We offer easy returns within 30 days of purchase. Check our returns page for details.", "Yes, you can return this product if it meets our return conditions."],
+      "context_set": ""
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods are accepted?", "Can I pay with a debit card?", "Do you take PayPal?", "What are my payment options?"],
+      "responses": ["We accept credit cards, debit cards, and PayPal.", "You can pay using multiple methods. Visit our checkout page for details."],
+      "context_set": ""
+    },
+    {
+      "tag": "customer_support",
+      "patterns": ["How can I contact support?", "I need help with an order.", "Who can I talk to for assistance?", "Where can I get help?"],
+      "responses": ["You can email us at support@example.com or call +90 000 000 00 00.", "Our customer service team is here to help! Reach out via email or phone."],
+      "context_set": ""
+    },
+    {
+      "tag": "order_cancellation",
+      "patterns": ["Can I cancel my order?", "How do I cancel a purchase?", "What’s the process for order cancellation?", "Can I stop my order from shipping?"],
+      "responses": ["You can cancel your order before it is shipped. Contact us for assistance.", "Please provide your order number to process the cancellation."],
+      "context_set": ""
+    },
+    {
+      "tag": "discounts_and_offers",
+      "patterns": ["Are there any discounts?", "Do you have sales right now?", "What are the current promotions?", "Can I use a coupon code?"],
+      "responses": ["We have exciting discounts! Check the 'Offers' section on our homepage.", "Yes, you can use a coupon code at checkout for discounts."],
+      "context_set": ""
+    },
+    {
+      "tag": "technical_issues",
+      "patterns": ["I can't log in to my account.", "The website isn't working.", "I am having trouble checking out.", "Why is the site so slow?"],
+      "responses": ["We apologize for the inconvenience. Please try again later or contact support.", "Technical difficulties happen. Contact us for immediate help if needed."],
+      "context_set": ""
+    },
+    {
+      "tag": "delivery_timeframe",
+      "patterns": ["How long does shipping take?", "When will my order arrive?", "What’s the estimated delivery time?", "How soon can I get my package?"],
+      "responses": ["Shipping typically takes 3-5 business days. Check your order details for a precise estimate.", "Delivery times vary based on location. Check the tracking link for updates."],
+      "context_set": ""
+    },
+    {
+      "tag": "product_recommendations",
+      "patterns": ["Can you suggest a good gift?", "What’s popular right now?", "Do you have any recommendations?", "What’s the best product for [use case]?"],
+      "responses": ["Sure! Let me suggest some options. What’s the occasion or preference?", "Our bestsellers include [product categories]. Check them out!"],
+      "context_set": ""
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["How can I leave feedback?", "Where do I review a product?", "Can I rate my experience?", "I want to share my opinion."],
+      "responses": ["We value your feedback! Please leave a review on the product page or email us.", "Your feedback helps us improve! Visit the 'Reviews' section to share your thoughts."],
+      "context_set": ""
+    }
+  ]
+}
+  
